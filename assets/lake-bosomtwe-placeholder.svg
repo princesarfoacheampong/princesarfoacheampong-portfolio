@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720">
+<defs>
+  <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+    <stop offset="0" stop-color="#0d3b4c"/><stop offset="1" stop-color="#0b6b62"/>
+  </linearGradient>
+  <radialGradient id="lake"><stop offset="0" stop-color="#7fd1c2"/><stop offset="0.55" stop-color="#2c9aa1"/><stop offset="1" stop-color="#0c5268"/></radialGradient>
+</defs>
+<rect width="1200" height="720" fill="url(#bg)"/>
+<path d="M110 190 C260 85 410 155 500 240 C570 305 690 265 770 190 C880 85 1040 155 1100 270 L1100 590 L100 590Z" fill="#173e38" opacity=".9"/>
+<path d="M280 290 C380 215 500 220 570 310 C625 380 735 365 800 295 C850 245 930 265 950 350 C970 430 880 510 760 515 C610 520 510 470 400 500 C300 530 220 410 280 290Z" fill="url(#lake)" stroke="#b9efe5" stroke-width="5"/>
+<g opacity=".55" fill="none" stroke="#d5fff6" stroke-width="3">
+<path d="M350 310 C470 275 570 340 680 320 C770 302 850 330 900 365"/>
+<path d="M330 365 C450 335 540 400 650 375 C770 350 845 400 910 420"/>
+<path d="M360 420 C470 390 565 445 690 425 C785 410 850 440 890 455"/>
+</g>
+<text x="60" y="75" fill="white" font-family="Arial, sans-serif" font-size="34" font-weight="700">Lake Bosomtwe • GEE / Sentinel-2</text>
+<text x="60" y="115" fill="#c8eee7" font-family="Arial, sans-serif" font-size="19">NDTI project visual placeholder — replace with your final map</text>
+<rect x="925" y="570" width="210" height="76" rx="12" fill="#082c35" opacity=".9"/>
+<text x="945" y="602" fill="white" font-family="Arial, sans-serif" font-size="16">Remote sensing</text>
+<text x="945" y="627" fill="#8fe2d1" font-family="Arial, sans-serif" font-size="14">Sentinel-2 • NDTI • GEE</text>
+</svg>
